@@ -1037,7 +1037,7 @@ dependencies = [
  "fs_extra",
  "predicates",
  "proc-macro2",
- "sdkman-cli-native 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sdkman-cli-native 0.4.6",
  "serial_test",
  "symlink",
  "tempfile",
@@ -1107,7 +1107,7 @@ dependencies = [
  "kube",
  "nucleo-matcher",
  "ratatui",
- "sdkman-cli-native 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sdkman-cli-native 0.4.6",
  "serde",
  "tokio",
  "tokio-util",
@@ -1921,32 +1921,6 @@ dependencies = [
 [[package]]
 name = "sdkman-cli-native"
 version = "0.4.6"
-dependencies = [
- "assert_cmd",
- "clap",
- "colored",
- "crypto-rsl",
- "directories",
- "dirs",
- "exitcode",
- "fs_extra",
- "jdks",
- "ksre-tui",
- "predicates",
- "proc-macro2",
- "serial_test",
- "ssh2-rsl",
- "symlink",
- "tar-rsl",
- "tempfile",
- "textwrap",
- "toml-rsl",
- "xml-rsl",
-]
-
-[[package]]
-name = "sdkman-cli-native"
-version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1e2e9c82f242df48ed2927612ceb26922f38dc1ff1c31790f7ce1755778a1087"
 dependencies = [
@@ -1963,6 +1937,31 @@ dependencies = [
  "symlink",
  "tempfile",
  "textwrap",
+]
+
+[[package]]
+name = "sdkman-cli-native"
+version = "0.4.7"
+dependencies = [
+ "assert_cmd",
+ "clap",
+ "colored",
+ "crypto-rsl",
+ "directories",
+ "dirs",
+ "exitcode",
+ "fs_extra",
+ "ksre-tui",
+ "predicates",
+ "proc-macro2",
+ "serial_test",
+ "ssh2-rsl",
+ "symlink",
+ "tar-rsl",
+ "tempfile",
+ "textwrap",
+ "toml-rsl",
+ "xml-rsl",
 ]
 
 [[package]]
